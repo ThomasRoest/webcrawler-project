@@ -1,4 +1,4 @@
-page = 'the contents of a weppage with some links in it maybe here is ont <a href="http://bullshit.com"</a> and some more here <a href="www.crap.com">asdf</a> and het some more links bullcrap <a href="http://python.org">link</a>'
+page = 'the content of a webpage with some links <a href="http://example.com">link</a> and some more links <a href="http://udacity.com">link</a> and the final one <a href="http://example2.com">link</a>'
 test = "no link test"
 
 
@@ -21,3 +21,5 @@ def print_all_links(page):
 		else:
 			break
 
+
+print_all_links(page)
